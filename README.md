@@ -4,7 +4,7 @@
 
 ## Local/Remote Development 🛠️
 
-To get started, you can clone this repository to your local environment or you can select the green clone button, choose codespaces and select "create codecpace on main." This will spin up a virtual environment for you that you can work from. You can also just cloick on the "Open in Codespaces" button above.
+To get started, you can clone this repository to your local environment or you can select the green clone button, choose codespaces and select "create codecpace on main." This will spin up a virtual environment for you that you can work from. You can also just click on the "Open in Codespaces" button above.
 
 If you choose to clone the repository locally, ensure that you have Python3 installed on your machine. For this workshop, we will be using a Codespace.
 
@@ -41,3 +41,11 @@ Let's get started! Here's the list of challenges to help guide you through the w
 1. [Create the model and supporting data](./00-instructions/1-create-model-data.md)
 2. [Create the API](./00-instructions/2-create-api.md)
 3. [Create the frontend](./00-instructions/3-create-frontend.md)
+
+## Additional Resources
+
+- [How to use GitHub Copilot: Prompts, tips, and use cases](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/)
+- [10 Unexpected use cases of GitHub Copilot](https://github.blog/2024-01-22-10-unexpected-ways-to-use-github-copilot/)
+- [Prompting Tips with GitHUb Copilot](https://gh.io/prompt-engineering)
+- [Copilot Chat Cookbook - example prompts](https://docs.github.com/en/copilot/example-prompts-for-github-copilot-chat)
+- [Best Practices when using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
