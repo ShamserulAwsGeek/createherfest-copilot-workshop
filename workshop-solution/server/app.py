@@ -27,8 +27,23 @@ def get_airports() -> Response:
         JSON response with array of airport objects
     """
     try:
-        airports = airports_df.to_dict('records')
-        return jsonify(airports), 200
+        # Get pagination parameters
+        page = request.args.get('page', 1, type=int)
+        per_page = request.args.get('per_page', 10, type=int)
+        
+        # Calculate start and end indices
+        start = (page - 1) * per_page
+        end = start + per_page
+        
+        # Paginate the airports data
+        airports_paginated = airports_df.iloc[start:end].to_dict('records')
+        
+        return jsonify({
+            'airports': airports_paginated,
+            'page': page,
+            'per_page': per_page,
+            'total': len(airports_df)
+        }), 200
     except Exception as e:
         logging.error(f'Error fetching airports: {str(e)}')
         return jsonify({
