@@ -62,3 +62,6 @@ Here's some quick, actionable tips you can use to help get the most out of GitHu
 
 - [How to use GitHub Copilot: Prompts, tips, and use cases](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/)
 - [10 Unexpected use cases of GitHub Copilot](https://github.blog/2024-01-22-10-unexpected-ways-to-use-github-copilot/)
+- [Prompting Tips with GitHUb Copilot](https://gh.io/prompt-engineering)
+- [Copilot Chat Cookbook - example prompts](https://docs.github.com/en/copilot/example-prompts-for-github-copilot-chat)
+- [Best Practices when using GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/best-practices-for-using-github-copilot)
