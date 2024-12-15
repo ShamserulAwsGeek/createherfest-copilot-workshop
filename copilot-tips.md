@@ -1,4 +1,4 @@
-# Getting the most out of GitHub Copilot
+# Getting the most out of GitHub Copilot workshop
 
 GitHub Copilot is a generative AI tool which will create code suggestions based both on the context it sees and its training data. Due to its probabilistic nature, there isn't a set way to use the tool. You'll discover new ways to interact with it to best guide it towards what you're looking for.
 
